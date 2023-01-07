@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jcachada.dev/</loc>
+    <lastmod>2023-01-06T00:26:01+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://jcachada.dev/blog/</loc>
+    <lastmod>2023-01-06T00:26:01+00:00</lastmod>
+  </url><url>
+    <loc>https://jcachada.dev/blog/development/</loc>
+    <lastmod>2023-01-06T00:26:01+00:00</lastmod>
+  </url><url>
+    <loc>https://jcachada.dev/blog/journaling/</loc>
+    <lastmod>2023-01-06T00:26:01+00:00</lastmod>
+  </url><url>
+    <loc>https://jcachada.dev/why-this-blog-exists/</loc>
+    <lastmod>2023-01-06T00:26:01+00:00</lastmod>
+  </url><url>
+    <loc>https://jcachada.dev/contact/</loc>
+    <lastmod>2020-11-27T17:30:49+00:00</lastmod>
+  </url>
+</urlset>

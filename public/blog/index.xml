@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 🌲 Something blooms - a bare blog.</title>
+    <link>https://jcachada.dev/blog/</link>
+    <description>Recent content in Blog on 🌲 Something blooms - a bare blog.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2022, João Cachada.</copyright>
+    <lastBuildDate>Fri, 06 Jan 2023 00:26:01 +0000</lastBuildDate><atom:link href="https://jcachada.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why This Blog Exists</title>
+      <link>https://jcachada.dev/why-this-blog-exists/</link>
+      <pubDate>Fri, 06 Jan 2023 00:26:01 +0000</pubDate>
+      
+      <guid>https://jcachada.dev/why-this-blog-exists/</guid>
+      <description>Back in 2020, when I was trying to make the best of my career in tech, I built myself a website using a technology called GatsbyJS. It wasn&amp;rsquo;t particularly well designed, but I did it from scratch, and I was proud of how it turned out. You can still look at the code for it here. 1
+I had plans to use that website as a showcase for myself. I shared my résumé there.</description>
+    </item>
+    
+  </channel>
+</rss>
