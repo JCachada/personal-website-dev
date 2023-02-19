@@ -109,7 +109,7 @@ Over the months that followed my reading this book, the character of Harold has 
 
 *** 
 
-***A Primate's Memoir*** brings us back to non-fiction. This is a book about Robert Sapolsky's awkward years of entering academia, which have the added novelty of having been spent in a national park in Kanya amidst a hoard of baboons that Sapolsky would go on to study for 20 years. 
+***A Primate's Memoir*** brings us back to non-fiction. This is a book about Robert Sapolsky's awkward years of entering academia, which have the added novelty of having been spent in a national park in Kenya amidst a horde of baboons that Sapolsky would go on to study for 20 years. 
 
 It is a book of passion and culture shock, a book that paints both Africa and academia in all their magic and allure, as well as in all their trappings and nonsense. I have only ever researched literature in my life, but I related to many of Sapolsky's frustrations with the academic world, as well as I related to many of his coming-of-age questions and thoughts about his place in the world. The book is human, and it does a good job of humanizing often glamorized research, without ever falling into the trap of doom and gloom.
 
