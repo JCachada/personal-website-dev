@@ -1,0 +1,55 @@
+{{ define "main" }}
+<content>
+  {{ if not .Data.Singular }}
+  <hr></hr>
+  <details>
+    <summary class="summary clickable-header big-top-pull">
+      <h4>Why is this called "weblog" and not "blog"?</h4>
+    </summary>
+    <p>
+      I stole this idea from <a href="https://cadence.moe/blog/2022-11-18-latest-changes-to-my-website">Cadence</a>. To
+      quote:
+
+      <blockquote>A weblog means a personal blog rather than a corporate one. It's a retro word for a retro person.</blockquote>
+
+      Put in simple terms, this is purely meant to signal that this is a collection of genuine thoughts instead of an
+      SEO-infested abomination.
+    </p>
+  </details>
+  {{ end }}
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ " /weblog" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+  <ul class="blog-posts">
+    {{ range .Pages }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+  </ul>
+  {{ if .Data.Singular }}
+  {{else}}
+  <small>
+    <div>
+      {{ range .Site.Taxonomies.tags }}
+      <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+      {{ end }}
+    </div>
+  </small>
+  {{ end }}
+</content>
+{{ end }}

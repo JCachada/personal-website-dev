@@ -1,6 +1,6 @@
 ---
 title: "2022 Book Recommendation List"
-tags: ["blog", "reading", "fiction"]
+tags: ["weblog", "reading", "fiction"]
 date: "2022-12-28"
 description: "A year in review - the books I read in 2022 and my thoughts on them."
 ---
