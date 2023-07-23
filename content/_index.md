@@ -1,15 +1,29 @@
-# Hi! I'm J. Cachada.
-
-### This is my garden on the internet. 
+# about joão
 
 ---
 
-That means it's not just a run-of-the-mill personal website. I want it to flourish and be healthy. I want to get joy from working on it and I want to 
-put a decent part of myself into that work. If I'm fortunate, I want to see people grow into what I make and enjoy it.  
+Hey - I'm João (but it's fine to call me Joao, especially if the tilde doesn't exist in your keyboard.) This is my little garden on the internet.
 
-I am passionate about many things: stories, for instance, in all of their shapes and forms. In another life, I was once a half-decent competitive card game player. Nowadays I'm quite a bad chess player. I love the game anyway, and I am having fun learning to be better at it.
+I currently work as an Engineering Manager for a Fintech company, [Primer](https://primer.io). If you're interested in my professional life, you should probably checkout my 
+[LinkedIn](https://www.linkedin.com/in/jcachada/). Sometimes I will post things to this website that relate to my profession, but (hopefully) not too often. There's much funner stuff
+for us to bond over.  
+
+I am passionate about many things: stories, for instance, in all of their shapes and forms. In another life, I was once a half-decent competitive card game player. Nowadays I play chess sometimes. I have strong opinions about privacy and the internet. 
 
 I am currently working on my debut novel. I write about that, as well as about anything else that comes to my mind. I write when I feel like I have something to say, without a 
 base commitment to posting frequency or subject matter. I can guarantee that, when I write, it will be about something I'm excited or opinionated about. Usually both.
+
+<details><h2><summary>A totally not comprehensive list of things I like</summary></h2>
+
+<ul>
+  <li>Books</li>
+  <li>Writing</li>
+  <li>Learning things</li>
+  <li>Whimsy and kindness</li>
+  <li>Animals and Nature</li>
+  <li>Video and board games</li>
+  <li>Programming as a means to create things. I have no particular love for programming as a science, only as a tool - there is beauty in clean code, but for me the magic of programming is in how it lets you conjure things into existence.</li>
+</ul> 
+</details>
 
 [Reach out.](mailto:joao@jcachada.dev)
