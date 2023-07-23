@@ -13,8 +13,7 @@ I am passionate about many things: stories, for instance, in all of their shapes
 I am currently working on my debut novel. I write about that, as well as about anything else that comes to my mind. I write when I feel like I have something to say, without a 
 base commitment to posting frequency or subject matter. I can guarantee that, when I write, it will be about something I'm excited or opinionated about. Usually both.
 
-<details><h2><summary>A totally not comprehensive list of things I like</summary></h2>
-
+<details> <summary class="summary clickable-header"><h4>a totally not comprehensive list of things I like</h4></summary>
 <ul>
   <li>Books</li>
   <li>Writing</li>
@@ -23,7 +22,6 @@ base commitment to posting frequency or subject matter. I can guarantee that, wh
   <li>Animals and Nature</li>
   <li>Video and board games</li>
   <li>Programming as a means to create things. I have no particular love for programming as a science, only as a tool - there is beauty in clean code, but for me the magic of programming is in how it lets you conjure things into existence.</li>
-</ul> 
-</details>
+</ul> </details>
 
 [Reach out.](mailto:joao@jcachada.dev)

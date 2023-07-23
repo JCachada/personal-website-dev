@@ -10,7 +10,7 @@
 </p>
 {{ end }}{{ end }}
 <content>
-  {{ .Content }}
+  {{ .Content | safeHTML }}
 </content>
 <p>
   {{ range (.GetTerms "tags") }}

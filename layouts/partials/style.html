@@ -169,4 +169,18 @@
     }
   }
 
+  summary.clickable-header {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .clickable-header h4::before {
+    content: "▶";
+    margin-right: 5px;
+  }
+
+  details[open] .clickable-header h4::before {
+    content: "▼";
+  }
 </style>
