@@ -1,0 +1,5 @@
+---
+title: "Internet Manifesto"
+---
+
+test
