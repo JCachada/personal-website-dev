@@ -6,7 +6,7 @@ baseURL = "https://jcachada.dev"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "🌲 Something blooms - a bare blog."
+title = "joão's website 🐟"
 author = "João Cachada"
 copyright = "Copyright © 2022, João Cachada."
 languageCode = "en-US"
