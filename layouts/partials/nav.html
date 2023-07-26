@@ -8,3 +8,6 @@
 {{ with .Site.GetPage "/not-a-product" }}
 <a href="{{ "/not-a-product" | relURL }}">Not a Product</a>
 {{ end }}
+{{ with .Site.GetPage "/say-hi" }}
+<a href="{{ "/say-hi" | relURL }}">Say Hi</a>
+{{ end }}
