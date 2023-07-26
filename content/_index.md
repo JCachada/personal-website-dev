@@ -2,7 +2,7 @@
 
 ---
 
-Hey - I'm João (but it's fine to call me Joao, especially if the tilde doesn't exist in your keyboard.) This is my little garden on the internet.
+Hey - I'm João (but it's fine to call me Joao, especially if the tilde doesn't exist in your keyboard.) My pronouns are he/him. This is my little garden on the internet.
 
 I currently work as an Engineering Manager for a Fintech company, [Primer](https://primer.io). If you're interested in my professional life, you should probably checkout my 
 [LinkedIn](https://www.linkedin.com/in/jcachada/). Sometimes I will post things to this website that relate to my profession, but (hopefully) not too often. There's much funner stuff
