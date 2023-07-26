@@ -13,6 +13,6 @@ tags = ["debutnovel","writing",]
 This is a short and sweet post. I am looking for people interested in beta-reading my debut novel. Having a good group of beta-readers will allow me to make sure it's as good
 as it can be before I send it to editors.
 
-You can get more information and sign up to be a beta reader [here](https://blocksurvey.io/survey/1CZNB2eHs3T6jX2QPiAK89JsHaALGvLx68/ee86d8d7-8143-4ae0-94ca-573f014651f9/r/o).
+You can get more information and sign up to be a beta reader <s>here</s> (beta reading signup is now closed.)
 
 I look forward to hearing from you.
