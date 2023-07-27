@@ -125,6 +125,50 @@
     color: #8b6fcb;
   }
 
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #202b38;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
   @media (prefers-color-scheme: dark) {
     body {
       background-color: #202b38;
@@ -170,7 +214,7 @@
   }
 
   summary.clickable-header.big-top-pull {
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     position: relative;
     margin-bottom: -100px;
@@ -178,7 +222,7 @@
   }
 
   summary.clickable-header.small-top-pull {
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     position: relative;
     margin-bottom: -100px;

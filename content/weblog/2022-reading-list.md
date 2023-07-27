@@ -187,7 +187,7 @@ I will, however, probably give the rest of the series a try at some point. I hav
 
 ***
 
-***Remarkably Right Creatures*** is a comfortable book about an old, lonely lady and an old, lonely octopus, who strike an unlikely friendship. Its prose is unexpectedly poignant at times, and some of the strong moments of the book are deftly executed. I have nothing overtly negative to say about it - it was an easy, enjoyable read.
+***Remarkably Bright Creatures*** is a comfortable book about an old, lonely lady and an old, lonely octopus, who strike an unlikely friendship. Its prose is unexpectedly poignant at times, and some of the strong moments of the book are deftly executed. I have nothing overtly negative to say about it - it was an easy, enjoyable read.
 
 
 ***
