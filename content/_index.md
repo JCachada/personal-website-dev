@@ -23,4 +23,4 @@ base commitment to posting frequency or subject matter. I can guarantee that, wh
   <li>Programming as a means to create things. I have no particular love for programming as a science, only as a tool - there is beauty in clean code, but for me the magic of programming is in how it lets you conjure things into existence.</li>
 </ul> </details>
 
-I am also on <a rel="me" href="https://mastodon.social/@jcachada">Mastodon</a>.
+I am also on <a rel="me" href="https://mastodon.social/@jcachada">Mastodon</a>. 
