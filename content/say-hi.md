@@ -20,7 +20,7 @@ Please do **not** reach out to me if:
   <li>You want to yell at me, argue in bad faith, or generally be a dickwad.</li>
 </ul> 
 
-The best way to reach me is through e-mail. If you really want to, I am also on [Mastodon]().
+The best way to reach me is through e-mail. If you really want to, I am also on [Mastodon](https://mastodon.social/@jcachada).
 
 You can send me an email at j cachada (without the whitespace) at the posteo.net servers. If this looks like a strange way to give you my e-mail address: it's spelled this way so bots and crawlers can't easily pick it up and send me tons of spam.
 
