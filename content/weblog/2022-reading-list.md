@@ -9,6 +9,8 @@ I get asked for book recommendations a lot, mostly by friends of mine who know I
 
 So, without further ado, let's talk books!
 
+**Please note**: These are my thoughts on the books at the time that I read them and wrote about it. My opinions change with time, with experience, etc. These are not gospel on what I think of a book - they are snapshots of a particular time.
+
 ## The list
 
 ![2022 Book List Screencap](/images/2022BookList.png)
@@ -22,6 +24,10 @@ The image is ordered by the date of publication, not by any particular rating sy
 - 1 star: these are books that I had no fun reading and regret spending time with. It's rare for books to land themselves in this category - throughout my life only a handful of them have been such complete write-offs. This year, fortunately, I didn't rate any of the books I've read 1 star. 
 
 ## The books, ordered by rating
+
+**Please note**: These are my thoughts on these books at the date of writing this. It's not uncommon for my opinion of books to change over time, as I read more,
+grow, and age. Please don't take this list as a final expression of my opinion on something - instead, think of it more as a snapshot of my thoughts on books 
+in the year that I read them. 
 
 Here are the books in the above list ordered by their rating, descending:
 
