@@ -1,0 +1,27 @@
+{
+  "name": "personal-website-dev",
+  "version": "1.0.0",
+  "description": "MIT License. Personal website built as a way to refocus on what's important and support the tiny, readable internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCachada/personal-website-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCachada/personal-website-dev/issues"
+  },
+  "homepage": "https://github.com/JCachada/personal-website-dev#readme",
+  "dependencies": {
+    "tinacms": "^2.1.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.52",
+    "@types/node": "^22.1.0"
+  }
+}

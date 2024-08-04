@@ -1,9 +1,8 @@
-+++
-title = "Why This Blog Exists"
-date = "2023-01-06T00:26:01Z"
-tags = ["journaling","development",]
-
-+++
+---
+title: "Why This Blog Exists"
+date: "2023-01-06T00:26:01Z"
+tags: ["journaling","development",]
+---
 
 Back in 2020, when I was trying to make the best of my career in tech, I built myself a website using a technology called GatsbyJS. It wasn't particularly well designed, 
 but I did it from scratch, and I was proud of how it turned out. You can still look at the code for it here. [^1]
