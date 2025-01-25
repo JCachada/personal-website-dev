@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>joão&#39;s website 🐟</title>
+    <link>https://jcachada.dev/</link>
+    <description>Recent content on joão&#39;s website 🐟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2022, João Cachada.</copyright>
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jcachada.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 Book Recommendation List</title>
+      <link>https://jcachada.dev/weblog/2023-reading-list/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://jcachada.dev/weblog/2023-reading-list/</guid>
+      <description>Please note: These are my thoughts on the books at the time that I read them and wrote about it. My opinions change with time, with experience, etc. These are not gospel on what I think of a book - they are snapshots of a particular time.&#xA;The list The image is ordered by the date of publication, not by any particular rating system. I will, however, share with you what I rated each book as.</description>
+    </item>
+    <item>
+      <title>Debut novel - beta reading signup</title>
+      <link>https://jcachada.dev/weblog/beta-reading-signup/</link>
+      <pubDate>Sat, 07 Jan 2023 18:45:18 +0000</pubDate>
+      <guid>https://jcachada.dev/weblog/beta-reading-signup/</guid>
+      <description>This is a short and sweet post. I am looking for people interested in beta-reading my debut novel. Having a good group of beta-readers will allow me to make sure it&amp;rsquo;s as good as it can be before I send it to editors.&#xA;You can get more information and sign up to be a beta reader here (beta reading signup is now closed.)&#xA;I look forward to hearing from you.</description>
+    </item>
+    <item>
+      <title>Why This Blog Exists</title>
+      <link>https://jcachada.dev/weblog/why-this-blog-exists/</link>
+      <pubDate>Fri, 06 Jan 2023 00:26:01 +0000</pubDate>
+      <guid>https://jcachada.dev/weblog/why-this-blog-exists/</guid>
+      <description>Back in 2020, when I was trying to make the best of my career in tech, I built myself a website using a technology called GatsbyJS. It wasn&amp;rsquo;t particularly well designed, but I did it from scratch, and I was proud of how it turned out. You can still look at the code for it here. 1&#xA;I had plans to use that website as a showcase for myself. I shared my résumé there.</description>
+    </item>
+    <item>
+      <title>2022 Book Recommendation List</title>
+      <link>https://jcachada.dev/weblog/2022-reading-list/</link>
+      <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://jcachada.dev/weblog/2022-reading-list/</guid>
+      <description>I get asked for book recommendations a lot, mostly by friends of mine who know I spend an inordinate amount of time reading. This year, I thought it would be nice to have a centralized place I could point people to. I would also like to take this as an opportunity to reflect on this year&amp;rsquo;s readings and collate my thoughts on the books I&amp;rsquo;ve read. It&amp;rsquo;s interesting to come back to them years later and notice how your thoughts on books evolve with your aging and shifts in perception - this way I&amp;rsquo;ll have a snapshot of what I thought of them when I first read them, which will be like a brain photograph when I&amp;rsquo;ve well forgotten what I read this year.</description>
+    </item>
+    <item>
+      <title>Cyberpunk 2077 Review: Do nomads dream of organic hearts?</title>
+      <link>https://jcachada.dev/weblog/cyberpunk-2077-review/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jcachada.dev/weblog/cyberpunk-2077-review/</guid>
+      <description>A few words on the buzz This is sort of an editorial note. Please skip it if you just want the review.&#xA;Cyberpunk 2077 is, as of the date of writing this, the first single-player game to reach 1 million concurrent players on Steam, as well as the first game to ever get that achievement on the same day it got released. It is, by and large, the biggest single-player game in Steam history to date, and that’s not even counting consoles, GOG, and the Epic Games Store.</description>
+    </item>
+    <item>
+      <title>Not a Product</title>
+      <link>https://jcachada.dev/not-a-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jcachada.dev/not-a-product/</guid>
+      <description>This website is not a product. (And neither are you) To put it nicely, I am not a fan of the Internet as it exists today.&#xA;In my life, I have greatly benefitted from the transformative power of the Internet. A lot of my closest friends and oldest friends are online friends - from Poland to the United Kingdom, I have found kinship with people from vastly different walks of life because I was able to talk to them, ignoring country borders and distance barriers that would have been prohibitive in most other times in history.</description>
+    </item>
+    <item>
+      <title>Say Hi</title>
+      <link>https://jcachada.dev/say-hi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jcachada.dev/say-hi/</guid>
+      <description>Please say hello if you:&#xA;Want to say hi. Want to chat about something. Want to comment on my website or flag a bug. Want to share something with me that you think might interest me. Please do not reach out to me if:&#xA;You want to sell something to me. You want to use me to sell something to my readers. You want to try and convince me to let you write a sponsored post.</description>
+    </item>
+  </channel>
+</rss>

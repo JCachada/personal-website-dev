@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on joão&#39;s website 🐟</title>
+    <link>https://jcachada.dev/weblog/game/</link>
+    <description>Recent content in Game on joão&#39;s website 🐟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2022, João Cachada.</copyright>
+    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jcachada.dev/weblog/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyberpunk 2077 Review: Do nomads dream of organic hearts?</title>
+      <link>https://jcachada.dev/weblog/cyberpunk-2077-review/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jcachada.dev/weblog/cyberpunk-2077-review/</guid>
+      <description>A few words on the buzz This is sort of an editorial note. Please skip it if you just want the review.&#xA;Cyberpunk 2077 is, as of the date of writing this, the first single-player game to reach 1 million concurrent players on Steam, as well as the first game to ever get that achievement on the same day it got released. It is, by and large, the biggest single-player game in Steam history to date, and that’s not even counting consoles, GOG, and the Epic Games Store.</description>
+    </item>
+  </channel>
+</rss>
