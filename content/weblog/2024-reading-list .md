@@ -157,6 +157,7 @@ All that said, up until about the halfway point of this book, that was all I'd g
 
 At the end of the day, this book made me, a 29 year old cis white man, feel a deep sense of kinship with a 50+ year old Asian woman. That is the best possible outcome to get out of the attempt to widen my reading horizons, and is ultimately all anyone can ask out of a book, doubly so a memoir. 
 
+***
 #### Cue the Sun, by Emily Nussbaum
 
 Cue the Sun is a Pulitzer-prize winning book exploring the invention and history of reality TV, and it definitely lands itself in the group of "books that taught me something". Reality TV has a perverse fascination for me - it's hellishly *appealing* (I write as me and my wife watch the occasional run of Below Deck or Naked Attraction), but it does come with a feeling of being sleazy in some hard to pinpoint way. Exploring whether that comes from cultural indoctrination or from legitimate grievances is part of what this book helped me think about.
