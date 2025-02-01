@@ -263,7 +263,7 @@ All in all, the book is not touching and I was never particularly moved. I also 
 *** 
 #### Fever House, by Keith Rosson
 
-This is a novel that a lot of people will really enjoy, even though it's not necessarily for me. It was brought to my attention because Stephen King apparently recommends it often, and so Borna Karanusic sent me a TikTok of that.
+This is a novel that a lot of people will really enjoy, even though it's not necessarily for me. It was brought to my attention because Stephen King apparently recommends it often, and so my friend Borna sent me a TikTok of that.
 
 It is fundamentally a thriller that becomes, after a while, a horror book. It reminded me in a lot of ways of Guillermo del Toro's *The Strain*, with the caveat that this is a little bit more guarded with the "devolves into horror" bit.
 
