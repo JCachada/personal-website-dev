@@ -71,7 +71,7 @@ Here's the thing - if people were actually worried about the necessity of LLM us
 
 But they're not saying that, and that's a pretty good indicator that they're not actually worried about productivity as much as they're worried about the ability to tell you how to live your life.
 
-## Let's get back to LLMs
+## Does anyone actually know what developer productivity is
 
 There's a funny aspect of this analogy to me: if your boss was saying something like "you need to start going to the gym every day", or "you need to start meditating", that would actually be a somewhat more sensible thing. Don't get me wrong: still very out of place in a work context, but at least backed up by real, tangible, known improvements that apply to a lot of people, and so have a decent chance of working for you, too. That's why tech companies give you gym memberships and mental health support. It's not because they love you as a person (sorry), it's because they *do* actually make you happier, which is usually good for the company.
 
