@@ -85,7 +85,7 @@ On the other hand, Microsoft's first Productivity and AI report mentioned:
 
 > Results from the studies support the hypothesis that the first versions of Copilot tools substantially increase productivity on these tasks. This productivity boost usually appeared in the studies as a meaningful increase in speed of execution without a significant decrease in quality. [^4]
 
-Industry opinions are also divided - check out, for example, Martin Fowler's [thoughts](https://martinfowler.com/articles/exploring-gen-ai/13-role-of-developer-skills.html) on the subject. 
+Industry opinions are also divided - check out, for example, Martin Fowler's [thoughts](https://martinfowler.com/articles/exploring-gen-ai/13-role-of-developer-skills.html) on the subject, or Gergely Orosz's great [write-up](https://newsletter.pragmaticengineer.com/p/software-engineering-with-llms-in-2025) on the current state of things.
 
 Look, I don't know if LLMs make us more productive or not. People much smarter than me dedicate themselves to the problem of developer productivity - if you want some hints on who to follow, I recommend [Dr. Cat Hicks](https://www.drcathicks.com/). I can almost hear her in the background saying that we don't even have an agreed working definition of developer productivity, so how can we measure the impacts of LLMs on it? And on top of that, how the usefulness of tools is determined not just by the intrinsic nature of the tools, but by the environment they're used in as well; so maybe we should be careful with broad claims about how LLMs improve or don't improve developer productivity. I suppose that's okay, because we concluded in the previous section that the people we're arguing against don't actually care about productivity. 
 
@@ -95,8 +95,8 @@ Okay, now that I've gotten you off my lawn, here's how I feel about LLMs:
 
 * They are more useful than many of their detractors claim. They are not "always wrong", "always hallucinating", or "pure slop". They are very useful for writing scripts I could write manually, but faster; and they are very useful for constrained tasks that consist of a lot of grunt work.
 * They are less useful than many of their proponents claim. They can't refactor entire codebases without so much supervision that I might as well just do it myself. And they most definitely can't build apps from scratch, unless you have enough engineering knowledge to begin with to spot, and stop, the hallucinations. The amount of handholding and validation they require for these sort of complex tasks makes their usage not that useful. 
-* They heavily vary in usefulness depending on how you use them. I was having miserable results at first. Then, using an adapted version of [this](https://harper.blog/2025/05/08/basic-claude-code/) method, I got better results. This might help explain why people's experience with them varies so much.
-* They have found a pretty useful niche as a better search engine. I can't tell Qwant (or Google, if you're less of a contrarian than me) that no, that's not what I meant with my keywords, can you adjust the search results slightly to better match this tone? But I can do that to an LLM. And they're much better at traversing through obscure error codes and technical problems than StackOverflow ever was. 
+* They heavily vary in usefulness depending on how you use them. I was having miserable results at first. Then, using an adapted version of [this](https://harper.blog/2025/05/08/basic-claude-code/) method, I got better results. This might help explain why people's experience with them varies so much. It also might mean that the limitations I perceive in them are my own fault / lack of skill.
+* They have found a pretty useful niche for me as a better search engine. I can't tell Qwant (or Google, if you're less of a contrarian than me) that no, that's not what I meant with my keywords, can you adjust the search results slightly to better match this tone? But I can do that to an LLM. And they're much better at traversing through obscure error codes and technical problems than StackOverflow ever was. 
 
 All in all, I would say they *do* make me slightly faster than usual. However, I have a lot of other concerns about them:
 
@@ -108,7 +108,7 @@ All in all, I would say they *do* make me slightly faster than usual. However, I
 
 And those are all incredibly valid, reasonable concerns to have about a technology. So when someone tells me: "well, use AI or your career is done", they're not actually telling me just that. What they're also saying is "whatever those other concerns you have are, you must allow them all to be sacrificed at the altar of productivity". 
 
-If you share those concerns, this is me saying: I hear you, and you're not crazy. Those are reasonable things to think.
+If you share those concerns, this is me saying: I hear you, and you're not crazy. Those are reasonable things to think. And even if LLMs do everything every tech bro ever promised and change the industry forever, those will still be reasonable things to think about.
 
 ## News of your death have been greatly exaggerated, or: what can you do about things
 
@@ -141,8 +141,6 @@ They hire you to help them achieve business outcomes. They get a limited (by law
 You have choices about what you want your future to look like. Do not just give them away because someone told you AI is like a train coming towards you, and the clash is an inevitability. It's not.
 
 And if they try to strongarm you into agreeing with them, I urge you to recognize it for the grift it is. There's really no qualitative difference between the CEO of a company heavily invested in the success of LLMs for their stock price trying to bully you into agreeing that LLMs are the only possible future, and a random Twitter user with a cartoon ape profile picture trying to convince you that paying obscene amounts for a `.jpeg` is the only reasonable option. 
-
-
 
 [^1]: [https://www.businessinsider.com/github-ceo-developers-embrace-ai-or-get-out-2025-8](https://www.businessinsider.com/github-ceo-developers-embrace-ai-or-get-out-2025-8)
 
