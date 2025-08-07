@@ -108,6 +108,8 @@ All in all, I would say they *do* make me slightly faster than usual. However, I
 
 And those are all incredibly valid, reasonable concerns to have about a technology. So when someone tells me: "well, use AI or your career is done", they're not actually telling me just that. What they're also saying is "whatever those other concerns you have are, you must allow them all to be sacrificed at the altar of productivity". 
 
+If you share those concerns, this is me saying: I hear you, and you're not crazy. Those are reasonable things to think.
+
 ## News of your death have been greatly exaggerated, or: what can you do about things
 
 I majored in Philosophy in university, which means I am pretty good at tricks to make people agree with me. I have a lot of rhetoric under my belt, and I try my best to use it for good. One of the things I learned is that if you control the question, then you control the possible answers. That's debating 101. 
@@ -138,7 +140,7 @@ They hire you to help them achieve business outcomes. They get a limited (by law
 
 You have choices about what you want your future to look like. Do not just give them away because someone told you AI is like a train coming towards you, and the clash is an inevitability. It's not.
 
-And if they try to strongarm you into it, I urge you to recognize it for the grift it is. There's really no qualitative difference between the CEO of a company heavily invested in the success of LLMs for their stock price trying to bully you into agreeing that LLMs are the only possible future, and a random Twitter user with a cartoon ape profile picture trying to convince you that paying obscene amounts for a `.jpeg` is the only reasonable option. 
+And if they try to strongarm you into agreeing with them, I urge you to recognize it for the grift it is. There's really no qualitative difference between the CEO of a company heavily invested in the success of LLMs for their stock price trying to bully you into agreeing that LLMs are the only possible future, and a random Twitter user with a cartoon ape profile picture trying to convince you that paying obscene amounts for a `.jpeg` is the only reasonable option. 
 
 
 
