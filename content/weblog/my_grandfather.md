@@ -76,8 +76,10 @@ My grandfather died this Monday, September 8th, 2025, in his own home.
 
 I sincerely hope he knew how loved he was. More importantly than that, I sincerely hope he saw just how much good he put out into the world by existing. If ever I've helped someone, that was his work.
 
-He lived a good life, and he leaves a hole that cannot be plugged. But for all that he taught me, I will do my best to provide others with the privileges he provided me. I will strive to be in a position to do good, and then try to give people the space to fly. And when they fall, I will be there to catch them, just as he was, always, for me. 
+He was a good man. He did so much good to those around him. He lived a good life, and he leaves a hole that cannot be plugged. But for all that he taught me, I will do my best to provide others with the privileges he provided me. I will strive to be in a position to do good, and then try to give people the space to fly. And when they fall, I will be there to catch them, just as he was, always, for me. 
 
 This is my favorite picture of him: it shows him and my grandma holding a young me, pure joy and pride in their eyes. I am so proud to have had him as my grandfather, and I hope he would still be proud of whoever I become.
 
 ![image info](/images/grandparents.png "A color photograph of a man in a suit and tie holding a young child with very chubby cheeks, with a smiling woman standing beside them. They are indoors, the child looking at the camera in puzzlement. The man and the woman are both looking at the child, their expressions full of love and joy.")
+
+*Note: This post is less edited, less revised, than many of my other ones. I wrote it emotionally, and plan to leave it up like that.* 
