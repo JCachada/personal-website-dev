@@ -1,15 +1,60 @@
 <style>
+  :root {
+    /* Flexoki Base Colors */
+    --flexoki-black: #100F0F;
+    --flexoki-paper: #FFFCF0;
+    
+    /* Flexoki Base Shades */
+    --flexoki-50: #F2F0E5;
+    --flexoki-100: #E6E4D9;
+    --flexoki-150: #DAD8CE;
+    --flexoki-200: #CECDC3;
+    --flexoki-300: #B7B5AC;
+    --flexoki-600: #6F6E69;
+    --flexoki-850: #343331;
+    --flexoki-950: #1C1B1A;
+    
+    /* Flexoki Dark Base Shades */
+    --flexoki-dark-50: #1C1B1A;
+    --flexoki-dark-100: #282726;
+    --flexoki-dark-150: #343331;
+    --flexoki-dark-200: #403E3C;
+    --flexoki-dark-300: #575653;
+    
+    /* Flexoki Accent Colors - Light */
+    --flexoki-red: #AF3029;
+    --flexoki-orange: #BC5215;
+    --flexoki-yellow: #AD8301;
+    --flexoki-green: #66800B;
+    --flexoki-cyan: #24837B;
+    --flexoki-blue: #205EA6;
+    --flexoki-purple: #5E409D;
+    --flexoki-magenta: #A02F6F;
+    
+    /* Flexoki Accent Colors - Dark */
+    --flexoki-red-dark: #D14D41;
+    --flexoki-orange-dark: #DA702C;
+    --flexoki-yellow-dark: #D0A215;
+    --flexoki-green-dark: #879A39;
+    --flexoki-cyan-dark: #3AA99F;
+    --flexoki-blue-dark: #4385BE;
+    --flexoki-purple-dark: #8B7EC8;
+    --flexoki-magenta-dark: #CE5D97;
+  }
+
   body {
     font-family: Verdana, sans-serif;
     margin: auto;
     padding: 20px;
     max-width: 720px;
     text-align: left;
-    background-color: #fff;
+    background-color: var(--flexoki-paper);
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: var(--flexoki-600);
+    font-size: 16px;
   }
 
   h1,
@@ -20,12 +65,36 @@
   h6,
   strong,
   b {
-    color: #222;
+    color: var(--flexoki-black);
+    letter-spacing: -0.02em;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    margin: 0.5em 0 0.75em 0;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.6em;
+    margin: 1.4em 0 0.6em 0;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    margin: 1.3em 0 0.5em 0;
+    line-height: 1.4;
+  }
+
+  h4, h5, h6 {
+    font-size: 1.1em;
+    margin: 1.2em 0 0.4em 0;
+    line-height: 1.4;
   }
 
   a {
-    color: #3273dc;
-    /*color: #ff5e6c;*/
+    color: var(--flexoki-blue);
   }
 
   .title {
@@ -44,14 +113,25 @@
   textarea {
     width: 100%;
     font-size: 16px;
+    background-color: var(--flexoki-50);
+    color: var(--flexoki-black);
+    border: 1px solid var(--flexoki-200);
   }
 
   input {
     font-size: 16px;
+    background-color: var(--flexoki-50);
+    color: var(--flexoki-black);
+    border: 1px solid var(--flexoki-200);
+  }
+
+  p {
+    margin: 1.2em 0;
+    line-height: 1.7;
   }
 
   content {
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   table {
@@ -64,16 +144,18 @@
 
   code {
     padding: 2px 5px;
-    background-color: #f2f2f2;
+    background-color: var(--flexoki-100);
+    color: var(--flexoki-black);
   }
 
   pre code {
-    color: #222;
+    color: var(--flexoki-black);
     display: block;
     padding: 20px;
     white-space: pre-wrap;
     font-size: 14px;
     overflow-x: auto;
+    background-color: var(--flexoki-50);
   }
 
   div.highlight pre {
@@ -87,10 +169,12 @@
   }
 
   blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
+    border-left: 3px solid var(--flexoki-300);
+    color: var(--flexoki-600);
+    padding-left: 24px;
+    margin: 1.5em 0;
     font-style: italic;
+    line-height: 1.8;
   }
 
   footer {
@@ -98,12 +182,12 @@
   }
 
   .helptext {
-    color: #777;
+    color: var(--flexoki-300);
     font-size: small;
   }
 
   .errorlist {
-    color: #eba613;
+    color: var(--flexoki-orange);
     font-size: small;
   }
 
@@ -111,24 +195,29 @@
   ul.blog-posts {
     list-style-type: none;
     padding: unset;
+    margin: 1.5em 0;
   }
 
   ul.blog-posts li {
     display: flex;
+    margin-bottom: 0.8em;
+    line-height: 1.6;
   }
 
   ul.blog-posts li span {
     flex: 0 0 130px;
+    font-size: 0.9em;
+    color: var(--flexoki-300);
   }
 
   ul.blog-posts li a:visited {
-    color: #8b6fcb;
+    color: var(--flexoki-purple);
   }
 
   @media (prefers-color-scheme: light) {
     body {
-      background-color: #202b38;
-      color: #ddd;
+      background-color: var(--flexoki-dark-50);
+      color: var(--flexoki-200);
     }
 
     h1,
@@ -139,40 +228,48 @@
     h6,
     strong,
     b {
-      color: #eee;
+      color: var(--flexoki-paper);
     }
 
     a {
-      color: #8cc2dd;
+      color: var(--flexoki-blue-dark);
     }
 
     code {
-      background-color: #777;
+      background-color: var(--flexoki-dark-200);
+      color: var(--flexoki-paper);
     }
 
     pre code {
-      color: #ddd;
+      color: var(--flexoki-paper);
+      background-color: var(--flexoki-dark-100);
     }
 
     blockquote {
-      color: #ccc;
+      color: var(--flexoki-300);
+      border-left-color: var(--flexoki-dark-300);
     }
 
     textarea,
     input {
-      background-color: #252525;
-      color: #ddd;
+      background-color: var(--flexoki-dark-150);
+      color: var(--flexoki-paper);
+      border-color: var(--flexoki-dark-300);
     }
 
     .helptext {
-      color: #aaa;
+      color: var(--flexoki-dark-300);
+    }
+
+    ul.blog-posts li a:visited {
+      color: var(--flexoki-purple-dark);
     }
   }
 
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #202b38;
-      color: #ddd;
+      background-color: var(--flexoki-dark-50);
+      color: var(--flexoki-200);
     }
 
     h1,
@@ -183,33 +280,41 @@
     h6,
     strong,
     b {
-      color: #eee;
+      color: var(--flexoki-paper);
     }
 
     a {
-      color: #8cc2dd;
+      color: var(--flexoki-blue-dark);
     }
 
     code {
-      background-color: #777;
+      background-color: var(--flexoki-dark-200);
+      color: var(--flexoki-paper);
     }
 
     pre code {
-      color: #ddd;
+      color: var(--flexoki-paper);
+      background-color: var(--flexoki-dark-100);
     }
 
     blockquote {
-      color: #ccc;
+      color: var(--flexoki-300);
+      border-left-color: var(--flexoki-dark-300);
     }
 
     textarea,
     input {
-      background-color: #252525;
-      color: #ddd;
+      background-color: var(--flexoki-dark-150);
+      color: var(--flexoki-paper);
+      border-color: var(--flexoki-dark-300);
     }
 
     .helptext {
-      color: #aaa;
+      color: var(--flexoki-dark-300);
+    }
+
+    ul.blog-posts li a:visited {
+      color: var(--flexoki-purple-dark);
     }
   }
 
