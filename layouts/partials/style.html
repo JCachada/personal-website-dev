@@ -389,28 +389,6 @@
     border-radius: 2px;
   }
 
-  /* Round Eyes (Hollow Knight style) */
-  .round-eye {
-    width: 18px;
-    height: 18px;
-    background: var(--flexoki-yellow);
-    border-radius: 50%;
-    border: 2px solid var(--flexoki-yellow-dark);
-    position: relative;
-    box-sizing: border-box;
-  }
-
-  .round-eye::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 6px;
-    height: 6px;
-    background: var(--flexoki-black);
-    border-radius: 50%;
-  }
 
   /* Predator Eyes */
   .predator-eye {
@@ -434,28 +412,6 @@
     border-radius: 1px;
   }
 
-  /* Owl Eyes */
-  .owl-eye {
-    width: 22px;
-    height: 22px;
-    background: var(--flexoki-yellow);
-    border-radius: 50%;
-    border: 3px solid var(--flexoki-orange);
-    position: relative;
-    box-sizing: border-box;
-  }
-
-  .owl-eye::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 8px;
-    height: 8px;
-    background: var(--flexoki-black);
-    border-radius: 50%;
-  }
 
   /* Blink Animation */
   @keyframes blink {
@@ -463,22 +419,23 @@
     95% { transform: scaleY(0.1); }
   }
 
+  @keyframes predatorBlink {
+    0%, 90%, 100% { transform: scaleX(1); }
+    95% { transform: scaleX(0.1); }
+  }
+
   .eye.blinking {
     animation: blink 3s infinite;
   }
 
+  .predator-eye.blinking {
+    animation: predatorBlink 3s infinite;
+  }
+
   /* Dark theme adjustments */
   @media (prefers-color-scheme: dark) {
-    .cat-eye, .round-eye, .predator-eye, .owl-eye {
+    .cat-eye, .predator-eye {
       background: var(--flexoki-yellow-dark);
-    }
-    
-    .round-eye {
-      border-color: var(--flexoki-yellow);
-    }
-    
-    .owl-eye {
-      border-color: var(--flexoki-orange-dark);
     }
   }
 </style>
