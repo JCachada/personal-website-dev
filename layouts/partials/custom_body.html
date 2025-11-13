@@ -1,0 +1,194 @@
+<!-- Whimsical Eyes Container -->
+<div class="eyes-container" id="eyesContainer"></div>
+
+<script>
+(function() {
+  const eyeTypes = ['cat-eye', 'round-eye', 'predator-eye', 'owl-eye'];
+  const container = document.getElementById('eyesContainer');
+  let eyes = [];
+  let lastScrollY = window.scrollY;
+  let lastEyeAddTime = 0;
+  
+  function updateContainerHeight() {
+    // Make sure container covers the entire document
+    const docHeight = Math.max(
+      document.body.scrollHeight, 
+      document.body.offsetHeight, 
+      document.documentElement.clientHeight, 
+      document.documentElement.scrollHeight, 
+      document.documentElement.offsetHeight
+    );
+    container.style.height = docHeight + 'px';
+  }
+  
+  function createEyePair(yPosition = null) {
+    // Position eyes outside the main content area (720px max-width + 40px padding)
+    const contentWidth = Math.min(720, window.innerWidth - 40);
+    const sideMargin = (window.innerWidth - contentWidth) / 2;
+    
+    // Only create eyes if there's enough space on the sides
+    if (sideMargin < 60) return [];
+    
+    const isLeft = Math.random() < 0.5;
+    const eyeType = eyeTypes[Math.floor(Math.random() * eyeTypes.length)];
+    
+    // Use provided y position or random position relative to document
+    const y = yPosition !== null 
+      ? yPosition 
+      : Math.random() * window.innerHeight;
+    
+    // Create base position for the pair
+    const baseX = isLeft 
+      ? Math.random() * (sideMargin - 60) + 10
+      : window.innerWidth - (Math.random() * (sideMargin - 60) + 60);
+    
+    // Determine eye spacing based on type - realistic animal spacing
+    let eyeSpacing = 25; // default spacing
+    if (eyeType === 'cat-eye') eyeSpacing = 20;
+    if (eyeType === 'round-eye') eyeSpacing = 24;
+    if (eyeType === 'predator-eye') eyeSpacing = 18;
+    if (eyeType === 'owl-eye') eyeSpacing = 30;
+    
+    // Create both eyes
+    const leftEye = document.createElement('div');
+    const rightEye = document.createElement('div');
+    
+    leftEye.className = `eye ${eyeType}`;
+    rightEye.className = `eye ${eyeType}`;
+    
+    // Force absolute identical positioning - no calculations, just direct values
+    const topPos = Math.floor(y);
+    const leftPos = Math.floor(baseX);
+    const rightPos = Math.floor(baseX + eyeSpacing);
+    
+    // Set identical properties for both eyes
+    leftEye.style.position = 'absolute';
+    leftEye.style.left = leftPos + 'px';
+    leftEye.style.top = topPos + 'px';
+    leftEye.style.margin = '0';
+    leftEye.style.padding = '0';
+    leftEye.style.border = leftEye.style.border || '0';
+    leftEye.style.display = 'block';
+    
+    rightEye.style.position = 'absolute';
+    rightEye.style.left = rightPos + 'px';
+    rightEye.style.top = topPos + 'px';  // EXACT SAME VALUE
+    rightEye.style.margin = '0';
+    rightEye.style.padding = '0';
+    rightEye.style.border = rightEye.style.border || '0';
+    rightEye.style.display = 'block';
+    
+    // Sync blinking - both eyes blink together or not at all
+    const shouldBlink = Math.random() < 0.4;
+    if (shouldBlink) {
+      leftEye.classList.add('blinking');
+      rightEye.classList.add('blinking');
+    }
+    
+    container.appendChild(leftEye);
+    container.appendChild(rightEye);
+    
+    // Make eyes visible immediately and simultaneously
+    setTimeout(() => {
+      leftEye.classList.add('visible');
+      rightEye.classList.add('visible');
+    }, 50);
+    
+    // Debug logging to ensure pairs are created with exact values
+    console.log(`Created ${eyeType} pair:`, {
+      leftPos: leftPos,
+      rightPos: rightPos, 
+      topPos: topPos,
+      leftTop: leftEye.style.top,
+      rightTop: rightEye.style.top
+    });
+    
+    return [leftEye, rightEye];
+  }
+  
+  function addInitialEyes() {
+    updateContainerHeight();
+    
+    // Add 4-6 eye pairs scattered within the initial viewport
+    const numPairs = Math.floor(Math.random() * 3) + 4;
+    
+    for (let i = 0; i < numPairs; i++) {
+      // Position eye pairs within the initial viewport height
+      const y = Math.random() * window.innerHeight;
+      const eyePair = createEyePair(y);
+      if (eyePair.length === 2) {
+        eyes.push(...eyePair);
+      }
+    }
+  }
+  
+  function addScrollEyes() {
+    const currentTime = Date.now();
+    
+    // Throttle eye creation - only add new eyes every 1.5 seconds
+    if (currentTime - lastEyeAddTime < 1500) return;
+    
+    lastEyeAddTime = currentTime;
+    
+    // Add 1-2 new eye pairs near the current scroll position
+    const numNewPairs = Math.floor(Math.random() * 2) + 1;
+    const currentScrollY = window.scrollY;
+    
+    for (let i = 0; i < numNewPairs; i++) {
+      // Position new eye pairs within the current viewport area
+      const y = currentScrollY + Math.random() * window.innerHeight;
+      const eyePair = createEyePair(y);
+      if (eyePair.length === 2) {
+        eyes.push(...eyePair);
+      }
+    }
+    
+    // Update container height to accommodate new content
+    updateContainerHeight();
+  }
+  
+  function handleScroll() {
+    const currentScrollY = window.scrollY;
+    const scrollDelta = Math.abs(currentScrollY - lastScrollY);
+    
+    // Add new eyes on significant scroll movement
+    if (scrollDelta > 100) {
+      addScrollEyes();
+    }
+    
+    lastScrollY = currentScrollY;
+  }
+  
+  function handleResize() {
+    updateContainerHeight();
+    
+    // Hide/show eyes based on available space
+    eyes.forEach(eye => {
+      const contentWidth = Math.min(720, window.innerWidth - 40);
+      const sideMargin = (window.innerWidth - contentWidth) / 2;
+      
+      if (sideMargin < 50) {
+        eye.style.display = 'none';
+      } else {
+        eye.style.display = 'block';
+      }
+    });
+  }
+  
+  // Event listeners
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  window.addEventListener('resize', handleResize);
+  
+  // Add initial eyes immediately when page loads
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(addInitialEyes, 100);
+  });
+  
+  // Backup: if DOMContentLoaded already fired, add eyes now
+  if (document.readyState === 'loading') {
+    // DOMContentLoaded listener will handle this
+  } else {
+    setTimeout(addInitialEyes, 100);
+  }
+})();
+</script>
