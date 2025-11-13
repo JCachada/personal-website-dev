@@ -1,13 +1,21 @@
 <!-- Whimsical Eyes Container -->
 <div class="eyes-container" id="eyesContainer"></div>
 
+<!-- Predator Toggle -->
+<label class="predator-toggle" for="keepAwayPredators">
+  <input type="checkbox" id="keepAwayPredators" onchange="window.handlePredatorToggle(this)">
+  Keep away predators
+</label>
+
 <script>
 (function() {
   const eyeTypes = ['cat-eye', 'predator-eye'];
   const container = document.getElementById('eyesContainer');
+  const toggleCheckbox = document.getElementById('keepAwayPredators');
   let eyes = [];
   let lastScrollY = window.scrollY;
   let lastEyeAddTime = 0;
+  let eyesEnabled = true;
   
   function updateContainerHeight() {
     // Make sure container covers the entire document
@@ -131,7 +139,20 @@
     return [leftEye, rightEye];
   }
   
+  function removeAllEyes() {
+    // Remove all eyes from the DOM
+    eyes.forEach(eye => {
+      if (eye.parentNode) {
+        eye.parentNode.removeChild(eye);
+      }
+    });
+    eyes = [];
+  }
+
   function addInitialEyes() {
+    // Don't add eyes if they're disabled
+    if (!eyesEnabled) return;
+    
     updateContainerHeight();
     
     // Always add exactly 3 eye pairs in the initial viewport
@@ -156,48 +177,33 @@
     }
   }
   
-  function ensureEyesInViewport() {
+  function addSingleEyePair() {
+    // Don't add eyes if they're disabled
+    if (!eyesEnabled) return;
+    
     const currentScrollY = window.scrollY;
-    const viewportTop = currentScrollY;
-    const viewportBottom = currentScrollY + window.innerHeight;
     
-    // Count existing eyes in current viewport
-    let eyesInViewport = 0;
-    eyes.forEach(eye => {
-      const eyeTop = parseInt(eye.style.top);
-      if (eyeTop >= viewportTop && eyeTop <= viewportBottom) {
-        eyesInViewport++;
-      }
-    });
-    
-    // We want 6 individual eyes (3 pairs) in viewport
-    const targetEyesInViewport = 6;
-    const eyePairsNeeded = Math.ceil((targetEyesInViewport - eyesInViewport) / 2);
-    
-    if (eyePairsNeeded > 0) {
-      for (let i = 0; i < eyePairsNeeded; i++) {
-        // Position new eye pairs within the current viewport
-        const y = currentScrollY + Math.random() * window.innerHeight;
-        const eyePair = createEyePair(y);
-        if (eyePair.length === 2) {
-          eyes.push(...eyePair);
-        }
-      }
-      
-      // Update container height to accommodate new content
-      updateContainerHeight();
+    // Position new eye pair within the current viewport
+    const y = currentScrollY + Math.random() * window.innerHeight;
+    const eyePair = createEyePair(y);
+    if (eyePair.length === 2) {
+      eyes.push(...eyePair);
     }
+    
+    // Update container height to accommodate new content
+    updateContainerHeight();
   }
 
   function addScrollEyes() {
     const currentTime = Date.now();
     
-    // Throttle eye creation - only add new eyes every 800ms
-    if (currentTime - lastEyeAddTime < 800) return;
+    // Throttle eye creation - only add new eyes every 1200ms for individual pairs
+    if (currentTime - lastEyeAddTime < 1200) return;
     
     lastEyeAddTime = currentTime;
     
-    ensureEyesInViewport();
+    // Add just one pair at a time
+    addSingleEyePair();
   }
   
   function handleScroll() {
@@ -228,19 +234,58 @@
     });
   }
   
+  // Handle toggle checkbox
+  function handleToggleChange(checkbox) {
+    eyesEnabled = !checkbox.checked;
+    
+    // Save state to localStorage
+    localStorage.setItem('keepAwayPredators', checkbox.checked.toString());
+    
+    if (checkbox.checked) {
+      // Remove all eyes when "keep away predators" is checked
+      removeAllEyes();
+    } else {
+      // Add initial eyes when unchecked
+      setTimeout(addInitialEyes, 100);
+    }
+  }
+
+  // Load saved toggle state and apply it
+  function initializeToggleState() {
+    const savedState = localStorage.getItem('keepAwayPredators');
+    const checkbox = document.getElementById('keepAwayPredators');
+    
+    if (savedState !== null && checkbox) {
+      const isChecked = savedState === 'true';
+      checkbox.checked = isChecked;
+      eyesEnabled = !isChecked;
+    }
+  }
+
+  // Make function globally available for inline event handler
+  window.handlePredatorToggle = handleToggleChange;
+
   // Event listeners
   window.addEventListener('scroll', handleScroll, { passive: true });
   window.addEventListener('resize', handleResize);
   
   // Add initial eyes when page loads
-  document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(addInitialEyes, 100);
-  });
+  function initializeEyes() {
+    // Only add eyes if they're enabled (toggle not checked)
+    if (eyesEnabled) {
+      setTimeout(addInitialEyes, 100);
+    }
+  }
   
-  // Backup: if DOMContentLoaded already fired, add eyes now
+  // Initialize everything
   if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeToggleState();
+      initializeEyes();
+    });
   } else {
-    setTimeout(addInitialEyes, 100);
+    initializeToggleState();
+    initializeEyes();
   }
 })();
 </script>
