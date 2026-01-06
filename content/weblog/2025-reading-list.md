@@ -52,7 +52,7 @@ Here are the books in the above list ordered by their rating, descending, and th
 
 	- *The Message*, by Ta-Nehisi Coates
 
-	- *The Shape of Snakes, by Minette Walters
+	- *The Shape of Snakes*, by Minette Walters
 
 	- *When the Saints*, by Sarah Mian 🇨🇦
 
